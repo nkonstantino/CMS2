@@ -14,7 +14,7 @@
                     <div class="col-lg-12">
                         <h1 class="page-header">
                             Nick's Admin
-                            <small>PHP is cool</small>
+                            <small>PHP is cool!</small>
                         </h1>
                     </div>
                 </div>
