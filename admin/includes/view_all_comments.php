@@ -33,14 +33,14 @@
                         echo "<td>{$comment_content}</td>";
                         echo "<td>{$comment_email}</td>";
                         echo "<td>{$comment_status}</td>";
-                        
+                        echo "<td>Some Title</td>";
                         //DISPLAY POST TITLES
 //                        $query = "SELECT * FROM posts WHERE comment_post_id = $comment_post_id";
 //                            $select_posts = mysqli_query($connection, $query);  
 //                            while($row = mysqli_fetch_assoc($select_categories)){
 //                                $post_title = $row['post_title'];}
                         
-                        echo "<td>Some Title</td>";
+//                        $query = "SELECT * FROM posts where "
                         echo "<td>{$comment_date}</td>";
                         echo "<td><a href='posts.php?approve={}'>Approve</a></td>";
                         echo "<td><a href='posts.php?unapprove={}'>Unapprove</a></td>";
